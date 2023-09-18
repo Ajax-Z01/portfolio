@@ -100,7 +100,7 @@
     <header id="header" class="header py-28 text-center md:pt-36 lg:text-left xl:pt-44 xl:pb-14">
         <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2 lg:gap-x-8">
             <div class="mb-8 lg:mt-24 xl:mt-28 xl:mr-12 text-center">
-                <p class="text-xl mb-3">Hello, I'm</p>
+                <p class="text-xl mb-3">Hello Everyone👋, I'm</p>
                 <h1 class="text-4xl font-bold mb-5 text-blue">Azhar Abdul A'la</h1>
                 <h2 class="text-xl mb-8">Recent Graduate | Web Developer</h2>
                 <div class="flex justify-center">
@@ -123,77 +123,41 @@
             <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">About Me</h1>
         </div> <!-- end of container -->
     </div>
-    <div class="cards-1">
+    <div class="cards-1 pb-16">
         <div class="container px-4 sm:px-8 xl:px-4">
 
-            <!-- Card -->
+            <!-- Card - Education -->
             <div class="card">
                 <div class="card-image">
-                    <img src="images/features-icon-1.svg" alt="alternative" />
+                    <i class="text-7xl fa-solid fa-user-graduate"></i>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Platform Integration</h5>
-                    <p class="mb-4">You sales force can use the app on any smartphone platform without compatibility issues</p>
+                    <h5 class="card-title font-bold text-xl">Education</h5>
+                    <p class="mb-4">I graduated with a Bachelor of Applied Engineering in Electronic Instrumentation from the Indonesian Nuclear Technology Polytechnic in 2023.</p>
                 </div>
             </div>
             <!-- end of card -->
 
-            <!-- Card -->
+            <!-- Card - Skills -->
             <div class="card">
                 <div class="card-image">
-                    <img src="images/features-icon-2.svg" alt="alternative" />
+                    <i class="text-7xl fa-solid fa-certificate"></i>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Easy On Resources</h5>
-                    <p class="mb-4">Works smoothly even on older generation hardware due to our optimization efforts</p>
+                    <h5 class="card-title font-bold text-xl">Skills</h5>
+                    <p class="mb-4">My skill set includes proficiency in PHP (Laravel), JavaScript, Java (Spring Boot), and MySQL. I have gained hands-on experience and expertise in developing the Website Internet Accelerator Laboratory (IA-Lab).</p>
                 </div>
             </div>
             <!-- end of card -->
 
-            <!-- Card -->
+            <!-- Card - Language -->
             <div class="card">
                 <div class="card-image">
-                    <img src="images/features-icon-3.svg" alt="alternative" />
+                    <i class="text-7xl fa-solid fa-language"></i>
                 </div>
                 <div class="card-body">
-                    <h5 class="card-title">Great Performance</h5>
-                    <p class="mb-4">Optimized code and innovative technology insure no delays and ultra-fast responsiveness</p>
-                </div>
-            </div>
-            <!-- end of card -->
-
-            <!-- Card -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/features-icon-4.svg" alt="alternative" />
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Multiple Languages</h5>
-                    <p class="mb-4">Choose from one of the 40 languages that come pre-installed and start selling smarter</p>
-                </div>
-            </div>
-            <!-- end of card -->
-
-            <!-- Card -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/features-icon-5.svg" alt="alternative" />
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Free Updates</h5>
-                    <p class="mb-4">Don't worry about future costs, pay once and receive all future updates at no extra cost</p>
-                </div>
-            </div>
-            <!-- end of card -->
-
-            <!-- Card -->
-            <div class="card">
-                <div class="card-image">
-                    <img src="images/features-icon-6.svg" alt="alternative" />
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Community Support</h5>
-                    <p class="mb-4">Register the app and get acces to knowledge and ideas from the Pavo online community</p>
+                    <h5 class="card-title font-bold text-xl">Language</h5>
+                    <p class="mb-4">I am fluent in Bahasa and English. Proficiency in multiple languages has enabled me to work effectively in diverse teams and environments.</p>
                 </div>
             </div>
             <!-- end of card -->
@@ -202,71 +166,61 @@
     </div> <!-- end of cards-1 -->
     <!-- end of about me -->
 
-
     <!-- Portfolio -->
-    <div id="portfolio" class="pt-24 pb-2 text-center">
+    <div id="portfolio" class="pt-24 pb-2 text-center bg-gray3">
         <div class="container px-4 sm:px-8 xl:px-4">
-            <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">Portfolio</h1>
+            <h1 class="text-blue font-bold text-3xl leading-10 lg:max-w-5xl lg:mx-auto">Portfolio</h1>
+        </div> <!-- end of container -->
+        <div class="container px-4 sm:px-8 xl:px-4">
+            <h1 class="mb-4 text-white font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">Latest Projects</h1>
         </div> <!-- end of container -->
     </div>
-    <div class="pt-12 pb-16 lg:pt-8">
+
+    <!-- Details 1 -->
+    <div class="pt-12 pb-16 lg:pt-8 bg-gray3">
         <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div class="lg:col-span-5">
                 <div class="mb-16 lg:mb-0 xl:mt-16">
-                    <h2 class="mb-6">Results driven ground breaking technology</h2>
-                    <p class="mb-4">Based on our team's extensive experience in developing line of business applications and constructive customer feedback we reached a new level of revenue.</p>
-                    <p class="mb-4">We enjoy helping small and medium sized tech businesses take a shot at established Fortune 500 companies</p>
+                    <h2 class="mb-6 text-white text-2xl font-semibold">Internet Accelerator Laboratory (IA-Lab) Website</h2>
+                    <p class="mb-4">The IA-Lab website is a final project I successfully designed and developed as a requirement to receive my Bachelor of Applied Engineering degree. It functions to monitor the data acquisition system of linear accelerator machines. </p>
+                    <p class="mb-4">Technologies: PHP (Laravel), JavaScript, MySQL, Tailwind CSS, HTML</p>
+                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Details</a> -->
                 </div>
             </div> <!-- end of col -->
             <div class="lg:col-span-7">
                 <div class="xl:ml-14">
-                    <img class="inline" src="images/details-1.jpg" alt="alternative" />
+                    <img class="inline" src="images/ia-lab.png" alt="ia-lab website" />
                 </div>
             </div> <!-- end of col -->
         </div> <!-- end of container -->
     </div>
     <!-- end of details 1 -->
 
-
     <!-- Details 2 -->
-    <div class="py-24">
+    <div class="pt-8 pb-32 bg-gray3">
         <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div class="lg:col-span-7">
                 <div class="mb-12 lg:mb-0 xl:mr-14">
-                    <img class="inline" src="images/details-2.jpg" alt="alternative" />
+                    <img class="inline" src="images/microservices.png" alt="microservices in portainer" />
                 </div>
             </div> <!-- end of col -->
             <div class="lg:col-span-5">
                 <div class="xl:mt-12">
-                    <h2 class="mb-6">Instant results for the marketing department</h2>
-                    <ul class="list mb-7 space-y-2">
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Features that will help you and your marketers</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Smooth learning curve due to the knowledge base</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Ready out-of-the-box with minor setup settings</div>
-                        </li>
-                    </ul>
-                    <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Lightbox</a>
-                    <a class="btn-outline-reg" href="article.html">Details</a>
+                    <h2 class="mb-6 text-white text-2xl font-semibold">Microservices for Mobile Charging System Applications</h2>
+                    <p class="mb-4">This project focuses on developing a mobile application based on microservices for electric vehicle users to find the nearest and suitable Electric Vehicle Charging Stations (EVCS) based on their specific electric vehicle needs.</p>
+                    <p class="mb-4">Technologies: Java (Spring Boot), MySQL, Docker</p>
+                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox2">Details</a> -->
                 </div>
             </div> <!-- end of col -->
         </div> <!-- end of container -->
     </div>
     <!-- end of details 2 -->
 
-
     <!-- Details Lightbox -->
     <!-- Lightbox -->
     <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
         <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
-            <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">x</button>
             <div class="lg:col-span-8">
                 <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
                     <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
@@ -306,220 +260,153 @@
         </div> <!-- end of row -->
     </div> <!-- end of lightbox-basic -->
     <!-- end of lightbox -->
+
+    <!-- Lightbox 2 -->
+    <div id="details-lightbox2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <button title="Close (Esc)" type="button" class="mfp-close x-button">x</button>
+            <div class="lg:col-span-8">
+                <div class="mb-12 text-center lg:mb-0 lg:text-left xl:mr-6">
+                    <img class="inline rounded-lg" src="images/details-lightbox.jpg" alt="alternative" />
+                </div>
+            </div> <!-- end of col -->
+            <div class="lg:col-span-4">
+                <h3 class="mb-2">Goals Setting</h3>
+                <hr class="w-11 h-0.5 mt-0.5 mb-4 ml-0 border-none bg-indigo-600" />
+                <p>The app can easily help you track your personal development evolution if you take the time to set it up.</p>
+                <h4 class="mt-7 mb-2.5">User Feedback</h4>
+                <p class="mb-4">This is a great app which can help you save time and make your live easier. And it will help improve your productivity.</p>
+                <ul class="list mb-6 space-y-2">
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Splash screen panel</div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Statistics graph report</div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Events calendar layout</div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Location details screen</div>
+                    </li>
+                    <li class="flex">
+                        <i class="fas fa-chevron-right"></i>
+                        <div>Onboarding steps interface</div>
+                    </li>
+                </ul>
+                <a class="btn-solid-reg mfp-close page-scroll" href="#download">Download</a>
+                <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of lightbox 2-->
     <!-- end of details lightbox -->
 
-
-    <!-- Details 3 -->
-    <div class="pt-16 pb-12">
-        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
-            <div class="lg:col-span-5">
-                <div class="mb-16 lg:mb-0 xl:mt-16">
-                    <h2 class="mb-6">Platform integration and life time free updates</h2>
-                    <p class="mb-4">Get a glimpse of what this app can do for your marketing automation and understand why current users are so excited when using Pavo
-                        together with their teams.</p>
-                    <p class="mb-4">We will promptly answer any questions and honor your requests based on the service level agreement</p>
-                </div>
-            </div> <!-- end of col -->
-            <div class="lg:col-span-7">
-                <div class="ml-14">
-                    <img class="inline" src="images/details-3.jpg" alt="alternative" />
-                </div>
-            </div> <!-- end of col -->
-        </div> <!-- end of container -->
-    </div>
-    <!-- end of details 3 -->
-
-
-    <!-- Statistics -->
-    <div class="counter">
-        <div class="container px-4 sm:px-8">
-
-            <!-- Counter -->
-            <div id="counter">
-                <div class="cell">
-                    <div class="counter-value number-count" data-count="231">1</div>
-                    <p class="counter-info">Happy Users</p>
-                </div>
-                <div class="cell">
-                    <div class="counter-value number-count" data-count="385">1</div>
-                    <p class="counter-info">Issues Solved</p>
-                </div>
-                <div class="cell">
-                    <div class="counter-value number-count" data-count="159">1</div>
-                    <p class="counter-info">Good Reviews</p>
-                </div>
-                <div class="cell">
-                    <div class="counter-value number-count" data-count="127">1</div>
-                    <p class="counter-info">Case Studies</p>
-                </div>
-                <div class="cell">
-                    <div class="counter-value number-count" data-count="211">1</div>
-                    <p class="counter-info">Orders Received</p>
-                </div>
-            </div>
-            <!-- end of counter -->
-
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of statistics -->
-
     <!-- Experience -->
-    <div id="experience" class="cards-2">
-        <div class="absolute bottom-0 h-40 w-full bg-white"></div>
-        <div class="container px-4 pb-px sm:px-8">
-            <h2 class="mb-2.5 text-white lg:max-w-xl lg:mx-auto">Pricing options for all budgets</h2>
-            <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"> Our pricing plans are setup in such a way that any user can start enjoying Pavo without worrying so much about costs. They are flexible and work for any type of industry </p>
+    <div id="experience" class="cards-2 bg-gray">
+        <div class="container px-4 pb-16 sm:px-8">
+            <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">Experience</h1>
+            <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"></p>
 
-            <!-- Card-->
+            <!-- Card - Internship at PT Informasi Teknologi Indonesia -->
             <div class="card">
                 <div class="card-body">
-                    <div class="card-title">STANDARD</div>
-                    <div class="price"><span class="currency">$</span><span class="value">29</span></div>
-                    <div class="frequency">monthly</div>
-                    <p>This basic package covers the marketing needs of small startups</p>
+                    <div class="card-title">Internship</div>
+                    <div class="frequency">as</div>
+                    <div class="card-title">IT Developer</div>
+                    <p>I had the opportunity to intern as an IT Developer at PT Informasi Teknologi Indonesia from March to May 2022.</p>
                     <ul class="list mb-7 space-y-2 text-left">
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
-                            <div>List building and relations</div>
+                            <div>Developed e-commerce web applications.</div>
                         </li>
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
-                            <div>Seamless platform integration</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Great performance on devices</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Community support and videos</div>
+                            <div>Collaborated with the team to achieve project goals.</div>
                         </li>
                     </ul>
-                    <div class="button-wrapper">
-                        <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                    </div>
                 </div>
             </div> <!-- end of card -->
-            <!-- end of card -->
 
-            <!-- Card-->
+            <!-- Card - Internship at Pusat Riset Kecerdasan Artifisial dan Keamanan Siber - BRIN -->
             <div class="card">
                 <div class="card-body">
-                    <div class="card-title">ADVANCED</div>
-                    <div class="price"><span class="currency">$</span><span class="value">39</span></div>
-                    <div class="frequency">monthly</div>
-                    <p>This is a more advanced package suited for medium companies</p>
+                    <div class="card-title">Internship</div>
+                    <div class="frequency">as</div>
+                    <div class="card-title">Backend Developer</div>
+                    <p>I had the opportunity to intern as a Backend Developer at Pusat Riset Kecerdasan Artifisial dan Keamanan Siber - BRIN from September 2022 to February 2023.</p>
                     <ul class="list mb-7 space-y-2 text-left">
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
-                            <div>List building and relations</div>
+                            <div>Transformed monolithic architecture into a microservices architecture.</div>
                         </li>
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
-                            <div>Seamless platform integration</div>
+                            <div>Created and deployed a microservice within the new architecture.</div>
                         </li>
                         <li class="flex">
                             <i class="fas fa-chevron-right"></i>
-                            <div>Great performance on devices</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Community support and videos</div>
+                            <div>Conducted performance testing to optimize system performance.</div>
                         </li>
                     </ul>
-                    <div class="button-wrapper">
-                        <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                    </div>
                 </div>
             </div> <!-- end of card -->
-            <!-- end of card -->
-
-            <!-- Card-->
-            <div class="card">
-                <div class="card-body">
-                    <div class="card-title">COMPLETE</div>
-                    <div class="price"><span class="currency">$</span><span class="value">49</span></div>
-                    <div class="frequency">monthly</div>
-                    <p>This is a comprehensive package designed for big organizations</p>
-                    <ul class="list mb-7 text-left space-y-2">
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>List building and relations</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Seamless platform integration</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Great performance on devices</div>
-                        </li>
-                        <li class="flex">
-                            <i class="fas fa-chevron-right"></i>
-                            <div>Community support and videos</div>
-                        </li>
-                    </ul>
-                    <div class="button-wrapper">
-                        <a class="btn-solid-reg page-scroll" href="#download">Download</a>
-                    </div>
-                </div>
-            </div> <!-- end of card -->
-            <!-- end of card -->
 
         </div> <!-- end of container -->
     </div> <!-- end of cards-2 -->
     <!-- end of pricing -->
 
-
     <!-- Contact -->
     <div id="contact" class="basic-5">
-        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-2">
-            <div class="mb-16 lg:mb-0">
-                <img src="images/conclusion-smartphone.png" alt="alternative" />
-            </div>
-            <div class="lg:mt-24 xl:mt-44 xl:ml-12">
-                <p class="mb-9 text-gray-800 text-3xl leading-10">Team management mobile applications don’t get much better than Pavo. Download it today</p>
-                <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>Download</a>
-                <a class="btn-solid-lg secondary" href="#your-link"><i class="fab fa-google-play"></i>Download</a>
+        <div class="container px-4 sm:px-8">
+            <div class="pt-8 px-4 mx-auto max-w-screen-md">
+                <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto text-center">Contact</h1>
+                <p class="mb-8 font-light text-center text-gray-400 sm:text-xl"></p>
+                <form action="send_email.php" method="post" class="space-y-8 form-group">
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-300">Your email</label>
+                        <input type="email" name="email" id="email" class="form-control-input shadow-sm border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@email.com" required>
+                    </div>
+                    <div>
+                        <label for="subject" class="block mb-2 text-sm font-medium text-gray-300">Subject</label>
+                        <input type="text" name="subject" id="subject" class="form-control-input block p-3 w-full text-sm rounded-lg border shadow-sm bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="Let me know how i can help you" required>
+                    </div>
+                    <div class="sm:col-span-2">
+                        <label for="message" class="block mb-2 text-sm font-medium text-gray-300">Your message</label>
+                        <textarea name="message" id="message" class="form-control-textarea block p-2.5 w-full text-sm rounded-lg shadow-sm border bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500" placeholder="Leave a comment..."></textarea>
+                    </div>
+                    <button type="submit" class="form-control-submit-button">Send message</button>
+                </form>
             </div>
         </div> <!-- end of container -->
     </div> <!-- end of basic-5 -->
     <!-- end of conclusion -->
 
-
     <!-- Footer -->
     <div class="footer">
         <div class="container px-4 sm:px-8">
-            <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">Pavo is a mobile application for marketing automation and you can reach the team at <a class="text-indigo-600 hover:text-gray-500" href="mailto:email@domain.com">email@domain.com</a></h4>
+            <h4 class="mb-8 lg:max-w-3xl lg:mx-auto">For inquiries or collaboration opportunities, feel free to reach out to me at <a class="text-blue hover:text-gray-500" href="mailto:azhar.ala99@gmail.com">azhar.ala99@gmail.com</a></h4>
             <div class="social-container">
                 <span class="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://github.com/Ajax-Z01">
                         <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-facebook-f fa-stack-1x"></i>
+                        <i class="fab fa-github fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-twitter fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
-                        <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                    </a>
-                </span>
-                <span class="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://www.instagram.com/azhar_z01/">
                         <i class="fas fa-circle fa-stack-2x"></i>
                         <i class="fab fa-instagram fa-stack-1x"></i>
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="#your-link">
+                    <a href="https://www.linkedin.com/in/azhar-abdul-a02449217/">
                         <i class="fas fa-circle fa-stack-2x"></i>
-                        <i class="fab fa-youtube fa-stack-1x"></i>
+                        <i class="fab fa-linkedin fa-stack-1x"></i>
                     </a>
                 </span>
             </div> <!-- end of social-container -->
@@ -530,21 +417,12 @@
 
     <!-- Copyright -->
     <div class="copyright">
-        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-3">
-            <ul class="mb-4 list-unstyled p-small">
-                <li class="mb-2"><a href="article.html">Article Details</a></li>
-                <li class="mb-2"><a href="terms.html">Terms & Conditions</a></li>
-                <li class="mb-2"><a href="privacy.html">Privacy Policy</a></li>
-            </ul>
-            <p class="pb-2 p-small statement">Copyright © <a href="#your-link" class="no-underline">Your name</a></p>
-
-            <p class="pb-2 p-small statement">Distributed by :<a href="https://themewagon.com/" class="no-underline">Themewagon</a></p>
+        <div class="container px-4 sm:px-8">
+            <p class="pb-2 p-small text-center">Copyright © Azhar Abdul A'la</a></p>
         </div>
-
         <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
-
 
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for JavaScript plugins -->

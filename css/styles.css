@@ -69,7 +69,7 @@ h4 {
 }
 
 h5 {
-    color: #ced3da;
+    color: #5fb6dd;
     font-weight: 700;
     font-size: 1.25rem;
     line-height: 1.625rem;
@@ -103,6 +103,14 @@ h6 {
 
 .bg-gray2 {
     background-color: #252836;
+}
+
+.bg-gray3 {
+    background-color: #59575d;
+}
+
+.bg-gray4 {
+    background-color: #d4d0d3;
 }
 
 .text-blue {
@@ -320,7 +328,7 @@ select {
 .form-control-textarea {
     display: block; /* used to eliminate a bottom gap difference between Chrome and IE/FF */
     width: 100%;
-    height: 14rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
+    height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
     padding-top: 1.5rem;
     padding-left: 1.3125rem;
     border: 1px solid #d0d5e2;
@@ -362,7 +370,7 @@ input[type="checkbox"] {
     border: 1px solid #5fb6dd;
     border-radius: 32px;
     background-color: #5fb6dd;
-    color: #ced3da;
+    color: #5fb6dd;
     font-weight: 600;
     font-size: 0.875rem;
     line-height: 0;
@@ -372,8 +380,8 @@ input[type="checkbox"] {
 
 .form-control-submit-button:hover {
     border: 1px solid #ced3da;
-    background-color: transparent;
-    color: #ced3da;
+    background-color: #5fb6dd;
+    color: #fff;
 }
 
 /* Fade-move Animation For Details Lightbox - Magnific Popup */
@@ -445,7 +453,7 @@ input[type="checkbox"] {
 
 .navbar-toggler-icon {
     content: "";
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28238, 238, 238, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 100% 100%;
@@ -776,8 +784,7 @@ input[type="checkbox"] {
 /*******************/
 .cards-2 {
     position: relative;
-    padding-top: 8rem;
-    background: linear-gradient(rgba(50, 60, 70, 0.9), rgba(50, 60, 70, 0.9)), url("../images/pricing-background.jpg") center center no-repeat;
+    padding-top: 6rem;
     background-size: cover;
     text-align: center;
 }
@@ -800,7 +807,7 @@ input[type="checkbox"] {
 
 .cards-2 .card .card-title {
     margin-bottom: 1rem;
-    color: #eb427e;
+    color: #fff;
     font-weight: 700;
     font-size: 1.5rem;
     line-height: 1.875rem;
@@ -828,7 +835,7 @@ input[type="checkbox"] {
 }
 
 .cards-2 .card .frequency {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
     font-size: 0.875rem;
     text-align: center;
 }
@@ -872,8 +879,7 @@ input[type="checkbox"] {
 /**********************/
 .basic-5 {
     padding-top: 4.5rem;
-    padding-bottom: 7.5rem;
-    background: url("../images/conclusion-background.jpg") center center no-repeat;
+    padding-bottom: 3rem;
     background-size: cover;
     text-align: center;
 }
@@ -1140,7 +1146,7 @@ a:hover.back-to-top {
     }
 
     .copyright .statement {
-        text-align: right;
+        text-align: center;
     }
     /* end of copyright */
 
