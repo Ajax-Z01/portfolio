@@ -46,11 +46,6 @@
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <a class="text-blue font-semibold text-2xl leading-4 no-underline page-scroll" href="/">Ajax-Z01</a>
 
-            <!-- Image Logo -->
-            <!-- <a class="inline-block mr-4 py-0.5 text-xl whitespace-nowrap hover:no-underline focus:no-underline" href="index.html">
-                <img src="images/logo.svg" alt="alternative" class="h-8" />
-            </a> -->
-
             <button class="background-transparent rounded text-xl leading-none hover:no-underline focus:no-underline lg:hidden lg:text-gray-400" type="button" data-toggle="offcanvas">
                 <span class="navbar-toggler-icon inline-block w-8 h-8 align-middle"></span>
             </button>
@@ -70,27 +65,12 @@
                         <a class="nav-link page-scroll" href="#experience">Experience</a>
                     </li>
                     <li>
+                        <a class="nav-link page-scroll" href="#certificate">Certificate</a>
+                    </li>
+                    <li>
                         <a class="nav-link page-scroll" href="#contact">Contact</a>
                     </li>
-                    <!-- <li class="dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Drop</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item page-scroll" href="article.html">Article Details</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                        </div>
-                    </li> -->
                 </ul>
-                <!-- <span class="block lg:ml-3.5">
-                    <a class="no-underline" href="#your-link">
-                        <i class="fab fa-apple text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200 mr-1.5"></i>
-                    </a>
-                    <a class="no-underline" href="#your-link">
-                        <i class="fab fa-android text-indigo-600 hover:text-pink-500 text-xl transition-all duration-200"></i>
-                    </a>
-                </span> -->
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
@@ -133,7 +113,8 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title font-bold text-xl">Education</h5>
-                    <p class="mb-4">I graduated with a Bachelor of Applied Engineering in Electronic Instrumentation from the Indonesian Nuclear Technology Polytechnic in 2023.</p>
+                    <p class="mb-2">I graduated with a Bachelor of Applied Engineering in Electronic Instrumentation from the Indonesian Nuclear Technology Polytechnic in 2023.</p>
+                    <p class="mb-4">I achieved a GPA of 3.57 during my studies.</p>
                 </div>
             </div>
             <!-- end of card -->
@@ -157,7 +138,7 @@
                 </div>
                 <div class="card-body">
                     <h5 class="card-title font-bold text-xl">Language</h5>
-                    <p class="mb-4">I am fluent in Bahasa and English. Proficiency in multiple languages has enabled me to work effectively in diverse teams and environments.</p>
+                    <p class="mb-4 lg:mb-16">I am fluent in Bahasa Indonesia and English. Proficiency in multiple languages has enabled me to work effectively in diverse teams and environments.</p>
                 </div>
             </div>
             <!-- end of card -->
@@ -197,7 +178,7 @@
     <!-- end of details 1 -->
 
     <!-- Details 2 -->
-    <div class="pt-8 pb-32 bg-gray3">
+    <div class="pt-8 pb-16 bg-gray3">
         <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
             <div class="lg:col-span-7">
                 <div class="mb-12 lg:mb-0 xl:mr-14">
@@ -216,15 +197,55 @@
     </div>
     <!-- end of details 2 -->
 
+    <!-- Details 3 -->
+    <div class="pt-8 pb-16 bg-gray3">
+        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+            <div class="lg:col-span-5">
+                <div class="mb-16 lg:mb-0">
+                    <h2 class="mb-6 text-white text-2xl font-semibold">Wikin (Website Interaktif Komunitas Nuklir Indonesia)</h2>
+                    <p class="mb-4">Wikin is a dynamic platform designed to cultivate a dedicated and knowledgeable nuclear community in Indonesia. It provides an interactive space for stakeholders in the nuclear field to share insights, experiences, and knowledge with the broader public.</p>
+                    <p class="mb-4">Technologies: PHP (Laravel), JavaScript, MySQL, Bootstrap, HTML</p>
+                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Details</a> -->
+                </div>
+            </div> <!-- end of col -->
+            <div class="lg:col-span-7">
+                <div class="xl:ml-14">
+                    <img class="inline" src="images/wikin.png" alt="wikin" />
+                </div>
+            </div> <!-- end of col -->
+        </div> <!-- end of container -->
+    </div>
+    <!-- end of details 3 -->
+
+    <!-- Details 4 -->
+    <div class="pt-8 pb-32 bg-gray3">
+        <div class="container px-4 sm:px-8 lg:grid lg:grid-cols-12 lg:gap-x-12">
+            <div class="lg:col-span-7">
+                <div class="mb-12 lg:mb-0 xl:mr-14">
+                    <img class="inline" src="images/plant-dataset.png" alt="plant dataset management" />
+                </div>
+            </div> <!-- end of col -->
+            <div class="lg:col-span-5">
+                <div class="">
+                    <h2 class="mb-6 text-white text-2xl font-semibold">Plant Dataset Management</h2>
+                    <p class="mb-4">Plant Dataset Management is a project focused on efficient organization and management of plant-related data. It provides a streamlined approach for storing, accessing, and analyzing plant datasets, aiding researchers and professionals in their work.</p>
+                    <p class="mb-4">Technologies: PHP (Laravel), JavaScript, AWS S3, MySQL, Bootstrap, HTML</p>
+                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox2">Details</a> -->
+                </div>
+            </div> <!-- end of col -->
+        </div> <!-- end of container -->
+    </div>
+    <!-- end of details 4 -->
+
     <!-- Experience -->
-    <div id="experience" class="cards-2 bg-gray">
+    <div id="experience" class="cards-2 bg-gray5">
         <div class="container px-4 pb-16 sm:px-8">
             <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">Experience</h1>
             <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"></p>
 
             <!-- Card - Internship at PT Informasi Teknologi Indonesia -->
             <div class="card">
-                <div class="card-body">
+                <div class="card-body lg:mb-32">
                     <div class="card-title">Internship</div>
                     <div class="frequency">as</div>
                     <div class="card-title">IT Developer</div>
@@ -268,7 +289,64 @@
 
         </div> <!-- end of container -->
     </div> <!-- end of cards-2 -->
-    <!-- end of pricing -->
+    <!-- end -->
+
+    <!-- Certificate -->
+    <div id="certificate" class="cards-2 bg-gray">
+        <div class="container px-4 pb-16 sm:px-8">
+            <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">Certificate</h1>
+            <p class="mb-16 text-white lg:max-w-3xl lg:mx-auto"></p>
+
+            <!-- Card  -->
+            <div class="card">
+                <div class="card-body grid justify-items-center lg:mb-72">
+                    <div class="card-title">Web Developer</div>
+                    <p>From 15 October 2023</p>
+                    <a href="https://www.testdome.com/certificates/b0c1e2229faa440491f069f84cbe3448" class="testdome-certificate-stamp silver">
+                        <span class="testdome-certificate-name">Azhar Abdul A'la</span>
+                        <span class="testdome-certificate-test-name">Web Developer</span>
+                        <span class="testdome-certificate-card-logo">TestDome<br>Certificate</span>
+                    </a>
+                    <script>
+                        var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css",
+                            link = document.createElement("link");
+                        link.href = stylesheet,
+                            link.type = "text/css",
+                            link.rel = "stylesheet",
+                            link.media = "screen,print",
+                            document.getElementsByTagName("head")[0].appendChild(link);
+                    </script>
+                    <p class="mt-4 text-sm">click image for details</p>
+                </div>
+            </div> <!-- end of card -->
+
+            <!-- Card -->
+            <div class="card">
+                <div class="card-body grid justify-items-center lg:mb-36">
+                    <div class="card-title">Working Permit of Officer of Radiation Facilities and Radioactive Materials</div>
+                    <p>Valid Until 14 September 2026</p>
+                    <a href="SIB PPR Tk. 1 - Azhar.pdf">
+                        <img class="inline" src="images/sertif ppr.png" alt="microservices in portainer" />
+                    </a>
+                    <p class="mt-4 text-sm">click image for details</p>
+                </div>
+            </div> <!-- end of card -->
+
+            <!-- Card -->
+            <div class="card">
+                <div class="card-body grid justify-items-center">
+                    <div class="card-title">Occupational Safety and Health Technician</div>
+                    <p>Valid Until 12 September 2027</p>
+                    <a href="Sertfikat Teknisi K3 - Azhar.pdf">
+                        <img class="inline" src="images/sertif k3.png" alt="microservices in portainer" />
+                    </a>
+                    <p class="mt-4 text-sm">click image for details</p>
+                </div>
+            </div> <!-- end of card -->
+
+        </div> <!-- end of container -->
+    </div> <!-- end of cards-2 -->
+    <!-- end -->
 
     <!-- Contact -->
     <div id="contact" class="basic-5">
@@ -276,7 +354,7 @@
             <div class="pt-8 px-4 mx-auto max-w-screen-md">
                 <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto text-center">Contact</h1>
                 <p class="mb-8 font-light text-center text-gray-400 sm:text-xl"></p>
-                <form action="send_email.php" method="post" class="space-y-8 form-group">
+                <form action="save-message.php" method="post" class="space-y-8 form-group">
                     <div>
                         <label for="email" class="block mb-2 text-sm font-medium text-gray-300">Your email</label>
                         <input type="email" name="email" id="email" class="form-control-input shadow-sm border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@email.com" required>
