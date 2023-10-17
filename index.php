@@ -165,7 +165,6 @@
                     <h2 class="mb-6 text-white text-2xl font-semibold">Internet Accelerator Laboratory (IA-Lab) Website</h2>
                     <p class="mb-4">The IA-Lab website is a final project I successfully designed and developed as a requirement to receive my Bachelor of Applied Engineering degree. It functions to monitor the data acquisition system of linear accelerator machines. </p>
                     <p class="mb-4">Technologies: PHP (Laravel), JavaScript, MySQL, Tailwind CSS, HTML</p>
-                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Details</a> -->
                 </div>
             </div> <!-- end of col -->
             <div class="lg:col-span-7">
@@ -190,7 +189,6 @@
                     <h2 class="mb-6 text-white text-2xl font-semibold">Microservices for Mobile Charging System Applications</h2>
                     <p class="mb-4">This project focuses on developing a mobile application based on microservices for electric vehicle users to find the nearest and suitable Electric Vehicle Charging Stations (EVCS) based on their specific electric vehicle needs.</p>
                     <p class="mb-4">Technologies: Java (Spring Boot), MySQL, Docker</p>
-                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox2">Details</a> -->
                 </div>
             </div> <!-- end of col -->
         </div> <!-- end of container -->
@@ -205,7 +203,6 @@
                     <h2 class="mb-6 text-white text-2xl font-semibold">Wikin (Website Interaktif Komunitas Nuklir Indonesia)</h2>
                     <p class="mb-4">Wikin is a dynamic platform designed to cultivate a dedicated and knowledgeable nuclear community in Indonesia. It provides an interactive space for stakeholders in the nuclear field to share insights, experiences, and knowledge with the broader public.</p>
                     <p class="mb-4">Technologies: PHP (Laravel), JavaScript, MySQL, Bootstrap, HTML</p>
-                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox">Details</a> -->
                 </div>
             </div> <!-- end of col -->
             <div class="lg:col-span-7">
@@ -230,7 +227,6 @@
                     <h2 class="mb-6 text-white text-2xl font-semibold">Plant Dataset Management</h2>
                     <p class="mb-4">Plant Dataset Management is a project focused on efficient organization and management of plant-related data. It provides a streamlined approach for storing, accessing, and analyzing plant datasets, aiding researchers and professionals in their work.</p>
                     <p class="mb-4">Technologies: PHP (Laravel), JavaScript, AWS S3, MySQL, Bootstrap, HTML</p>
-                    <!-- <a class="btn-solid-reg popup-with-move-anim mr-1.5" href="#details-lightbox2">Details</a> -->
                 </div>
             </div> <!-- end of col -->
         </div> <!-- end of container -->
@@ -354,7 +350,7 @@
             <div class="pt-8 px-4 mx-auto max-w-screen-md">
                 <h1 class="mb-4 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto text-center">Contact</h1>
                 <p class="mb-8 font-light text-center text-gray-400 sm:text-xl"></p>
-                <form action="save-message.php" method="post" class="space-y-8 form-group">
+                <form action="save_message.php" method="post" class="space-y-8 form-group">
                     <div>
                         <label for="email" class="block mb-2 text-sm font-medium text-gray-300">Your email</label>
                         <input type="email" name="email" id="email" class="form-control-input shadow-sm border text-sm rounded-lg block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light" placeholder="name@email.com" required>
@@ -392,7 +388,7 @@
                     </a>
                 </span>
                 <span class="fa-stack">
-                    <a href="https://www.linkedin.com/in/azhar-abdul-a02449217/">
+                    <a href="https://www.linkedin.com/in/azhar-abdul-a-la-a02449217/">
                         <i class="fas fa-circle fa-stack-2x"></i>
                         <i class="fab fa-linkedin fa-stack-1x"></i>
                     </a>
