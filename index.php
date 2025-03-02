@@ -56,13 +56,10 @@
                         <a class="nav-link page-scroll active" href="#header">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li>
-                        <a class="nav-link page-scroll" href="#about">About Me</a>
+                        <a class="nav-link page-scroll" href="#experience">Experience</a>
                     </li>
                     <li>
                         <a class="nav-link page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="nav-link page-scroll" href="#experience">Experience</a>
                     </li>
                     <li>
                         <a class="nav-link page-scroll" href="#certificate">Certificate</a>
@@ -131,7 +128,7 @@
     </header> <!-- end of header -->
     <!-- end of header -->
      
-    <section id="experience" class="py-16">
+    <section id="experience" class="pt-24 pb-32">
         <h2 class="text-center mb-16 text-blue font-bold text-4xl leading-10 lg:max-w-5xl lg:mx-auto">Experience</h2>
         <div class="max-w-5xl mx-auto relative">
             
@@ -318,7 +315,7 @@
             <div class="card h-full">
                 <div class="card-body h-full flex flex-col items-center">
                     <div class="card-title">Working Permit of Officer of Radiation Facilities and Radioactive Materials</div>
-                    <a href="SIB PPR Tk. 1 - Azhar.pdf">
+                    <a  target="_blank" href="SIB PPR Tk. 1 - Azhar.pdf">
                         <img class="inline" src="images/sertif ppr.png" alt="Working Permit of Officer of Radiation Facilities and Radioactive Materials" />
                     </a>
                     <p class="mt-4 grow">Valid Until 14 September 2026</p>
@@ -330,7 +327,7 @@
             <div class="card h-full">
                 <div class="card-body h-full flex flex-col items-center">
                     <div class="card-title">Occupational Safety and Health Technician</div>
-                    <a href="Sertfikat Teknisi K3 - Azhar.pdf">
+                    <a  target="_blank" href="Sertfikat Teknisi K3 - Azhar.pdf">
                         <img class="inline" src="images/sertif k3.png" alt="Occupational Safety and Health Technician Certificate" />
                     </a>
                     <p class="mt-4 grow">Valid Until 12 September 2027</p>
@@ -342,7 +339,7 @@
             <div class="card h-full">
                 <div class="card-body h-full flex flex-col items-center">
                     <div class="card-title">Software Engineer Certificate</div>
-                    <a href="https://www.hackerrank.com/certificates/iframe/dbcbc32c0bf2">
+                    <a  target="_blank" href="https://www.hackerrank.com/certificates/iframe/dbcbc32c0bf2">
                         <img class="inline" src="images/sertif se.png" alt="Software Engineer Certificate" />
                     </a>
                     <p class="mt-4 grow">From 11 November 2023</p>
@@ -354,7 +351,7 @@
             <div class="card h-full">
                 <div class="card-body h-full flex flex-col items-center">
                     <div class="card-title">SQL (Advanced) Certificate</div>
-                    <a href="https://www.hackerrank.com/certificates/iframe/6dc7120d64b4">
+                    <a  target="_blank" href="https://www.hackerrank.com/certificates/iframe/6dc7120d64b4">
                         <img class="inline" src="images/sertif sql.png" alt="SQL (Advanced) Certificate" />
                     </a>
                     <p class="mt-4 grow">From 13 November 2023</p>
@@ -366,7 +363,7 @@
             <div class="card h-full">
                 <div class="card-body h-full flex flex-col items-center">
                     <div class="card-title">Rest API (Intermediate) Certificate</div>
-                    <a href="https://www.hackerrank.com/certificates/iframe/e8c15055afc1">
+                    <a  target="_blank" href="https://www.hackerrank.com/certificates/iframe/e8c15055afc1">
                         <img class="inline" src="images/sertif rest.png" alt="Rest API (Intermediate) Certificate" />
                     </a>
                     <p class="mt-4 grow">From 13 November 2023</p>
