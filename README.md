@@ -13,7 +13,6 @@ The portfolio website serves as a personal showcase of Azhar Abdul A'la, includi
 - **PHP**: Server-side scripting for dynamic content.
 - **HTML, CSS, JavaScript**: Frontend structure and styling.
 - **Tailwind CSS**: Utility-first CSS framework for styling.
-- **Apache/XAMPP**: Local server for development.
 
 ## 4. File & Folder Structure
 ```
